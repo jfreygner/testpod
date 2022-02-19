@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: testpod-data-iscsi
+  name: testpod-data-iscsi-pvc
 spec:
   accessModes:
   - ReadWriteOnce

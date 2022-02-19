@@ -8,12 +8,12 @@ spec:
   accessModes:
   - ReadWriteOnce
   iscsi:
-    targetPortal: 10.1.1.207:3260
-    iqn: iqn.2003-01.local.freygner-iscsi.kvhclu1:testdisk1
+    targetPortal: 10.1.1.208:3260
+    iqn: iqn.2003-01.local.freygner-iscsi.kvhclu1:disk8
     lun: 0
     fsType: 'ext4'
     initiatorName: iqn.1994-05.local.freygner:testpod
   claimRef:
     kind: PersistentVolumeClaim
-    name: testpod-data-iscsi
-    namespace: fre-testpod
+    name: testpod-data-iscsi-pvc
+    namespace: testpod
