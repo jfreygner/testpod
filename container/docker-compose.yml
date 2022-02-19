@@ -1,0 +1,9 @@
+
+version: '3.4'
+
+services:
+  testpod:
+    image: testpod
+    build:
+      context: .
+      dockerfile: ./Dockerfile
