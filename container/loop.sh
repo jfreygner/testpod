@@ -1,7 +1,7 @@
 #!/bin/bash
 
-while true;
+while true; do
 	((x++))
 	echo $x. Minute
-	do sleep 60
+	sleep 60
 done
