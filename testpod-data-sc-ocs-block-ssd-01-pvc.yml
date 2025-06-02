@@ -8,4 +8,4 @@ spec:
   resources:
     requests:
       storage: 10G
-  storageClassName: ocs-block-ssd-01
+  storageClassName: fre-ocs-block-office01-ssd02
